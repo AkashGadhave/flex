@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: aqua;
+}
+header img{
+    width: 300px;
+    height: 250px;
+}
+nav{
+    background-color: red;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+section{
+    display: flex;
+}
+.one{
+    background-color: tomato;
+}
+.one img{
+    width: 300px;
+    height: 300px;
+}
+.two{
+    background-color: blueviolet;
+}
+.two img{
+    width: 300px;
+    height: 300px;
+}
+.three{
+    background-color: yellow;
+}
+.three img{
+    width: 300px;
+    height: 300px;
+}
+footer{
+    background-color: gray;
+}
